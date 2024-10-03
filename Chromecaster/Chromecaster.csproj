@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <PackageId>Chromecaster</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Matthew Rawson</Authors>
+	  <Description>A library to use chromecast inside C#</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/illuminat3/Chromecaster</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+	<ItemGroup>
+		<None Include="../README.md" Pack="true" PackagePath="/"/>
+	</ItemGroup>
+</Project>
